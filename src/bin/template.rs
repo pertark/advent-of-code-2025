@@ -1,3 +1,4 @@
+#![allow(unused)]
 use std::fs;
 
 static DAY: u8 = 1;
@@ -21,9 +22,13 @@ fn part_two(input: Input) {
 fn main() {
     let input = read_input("example");
     part_one(input.clone());
-    part_two(input.clone());
 
     let input = read_input("input");
     part_one(input.clone());
-    part_two(input.clone());
+
+    // let input = read_input("example");
+    // part_two(input.clone());
+
+    // let input = read_input("input");
+    // part_two(input.clone());
 }
